@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Header = (props) => {
+const Header = props => {
   return (
     <header className="top">
       <h1>
@@ -15,7 +15,7 @@ const Header = (props) => {
         <span>{props.tagline}</span>
       </h3>
     </header>
-  )
-}
+  );
+};
 
 export default Header;
